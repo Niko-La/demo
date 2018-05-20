@@ -20,6 +20,7 @@ const Header = () => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
+        maxHeight: 80,
         padding: '1.45rem 1.0875rem',
       }}
     >
@@ -47,7 +48,7 @@ const TemplateWrapper = ({children}) => (
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Headroom><Header /></Headroom>
+      <Headroom><Header  /></Headroom>
       <div
         style={{
           margin: '0 auto',
