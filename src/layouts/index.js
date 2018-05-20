@@ -5,6 +5,10 @@ import Helmet from 'react-helmet'
 
 import './index.scss'
 
+import { Container } from 'react-responsive-grid'
+
+import Headroom from 'react-headroom'
+
 const Header = () => (
   <div
     style={{
@@ -43,7 +47,7 @@ const TemplateWrapper = ({children}) => (
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Header />
+      <Headroom><Header /></Headroom>
       <div
         style={{
           margin: '0 auto',
