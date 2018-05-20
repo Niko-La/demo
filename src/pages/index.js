@@ -24,7 +24,13 @@ const IndexPage = () => (
     <p>Reduce energy costs and greenhouse gas pollution through a no-cost, energy and greenhouse gas emissions assessment that will make your company eligible to secure funding for low-carbon projects that help you save money. Funding is available to small- and medium-sized businesses with projects that contribute measurable reductions to greenhouse gas pollution in buildings and the production of goods.
 
 The GreenON Small and Medium Businesses program is working to increase the competitiveness and sustainability of Ontario’s small- and medium-sized companies, while increasing awareness and understanding of greenhouse gas pollution management strategies. The projects will help Ontario meet its 2020 and 2030 greenhouse gas pollution reduction targets outlined in Ontario’s Climate Change Action Plan..</p>
-<form name="submitMeme" netlify-honeypot="bot-field" method="POST" action="/thanks" netlify>
+<form 
+    name="submitMeme" 
+    data-netlify-honeypot="bot-field" 
+    data-netlify = "true"
+    method="POST" 
+    action="/thanks"
+>
 
       <p>
         <label>Name: <input type="text" name="name" size="40" /></label>
