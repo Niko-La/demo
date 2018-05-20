@@ -25,11 +25,9 @@ const IndexPage = () => (
 
 The GreenON Small and Medium Businesses program is working to increase the competitiveness and sustainability of Ontario’s small- and medium-sized companies, while increasing awareness and understanding of greenhouse gas pollution management strategies. The projects will help Ontario meet its 2020 and 2030 greenhouse gas pollution reduction targets outlined in Ontario’s Climate Change Action Plan..</p>
 <form 
-    name="submitMeme" 
-    data-netlify-honeypot="bot-field" 
-    data-netlify = "true"
+    name="enrollment" 
     method="POST" 
-    action="/thanks"
+    data-netlify = "true"
 >
 
       <p>
