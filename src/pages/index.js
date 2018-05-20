@@ -28,7 +28,7 @@ The GreenON Small and Medium Businesses program is working to increase the compe
     name="enroll" 
     method="POST" 
     action="thanks"
-    netlify
+    data-netlify = "true"
 >
 
       <p>
